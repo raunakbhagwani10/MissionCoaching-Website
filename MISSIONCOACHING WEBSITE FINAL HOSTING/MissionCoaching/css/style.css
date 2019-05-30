@@ -1,0 +1,99 @@
+.top_bar
+{
+	background-color:#455a64;
+	padding:8px 0;
+}
+.fa-facebook-official
+{
+	color:white;
+	margin-right:5px;
+	
+}
+.fa-youtube  
+{	
+	margin-right:5px;
+	color:white;
+}
+.fa-twitter
+{
+	color:white;
+	margin-right:5px;
+}
+.fa-google-plus
+{	
+	color:white;
+	margin-right:5px;
+}
+.fa-twitter:hover
+{
+	color:skyblue;
+	cursor:pointer;
+}
+.fa-youtube:hover
+{
+	color:red;
+	cursor:pointer;
+}
+.fa-facebook-official:hover
+{
+	color:darkblue;
+	cursor:pointer;
+	
+}
+.fa-google-plus:hover
+{
+	color:#d34836;
+	cursor:pointer;
+}
+
+.my_menu
+{
+	margin-top:30px;
+}
+.navbar-default
+{
+	background:none;
+	border:none;
+}
+.my_menu .navbar-nav .active a,.my_menu .navbar-nav .active a:hover
+{
+	background-color:#4db6ac;
+	color:white;
+	border-radius:5px;
+}
+
+.my_menu .navbar-nav li a:hover
+{
+	background-color:#9ccc65;
+	color:white;
+	border-radius:5px;
+}
+
+@media
+(
+	max-width:1200px;
+){
+	.my_menu .pull-right{float:none !important;}
+}
+
+.footer-section
+{
+	background-color:#263238;
+	padding:10px;
+	color:white;
+
+}
+#logo
+{
+	display:inline;
+}
+#logo-text
+{
+	margin-top:-50px;
+	margin-left:70px;
+	float:left;
+	display:inline;
+}
+
+
+
